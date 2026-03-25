@@ -1,5 +1,7 @@
 # Student template
 
+[![Coverage Status](https://coveralls.io/repos/github/TeoNikolas/AT00BY10-3012-VIII---Deployment/badge.svg?branch=main)](https://coveralls.io/github/TeoNikolas/AT00BY10-3012-VIII---Deployment?branch=main)
+
 ## Purpose of this repository
 
 This is a project template for students participating in Software Testing course
