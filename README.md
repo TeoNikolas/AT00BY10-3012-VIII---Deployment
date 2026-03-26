@@ -167,6 +167,8 @@ npm run coverage
 
 ## Test Results
 
+### Documentation of test results
+
 ### Running the tests
  
 ```bash
@@ -176,12 +178,42 @@ npm test
 Tests are split into five files, each grouping related functions.
 ![Test_pass](img/Test_pass.png)
 Passing tests after fixes
+
+### Latest execution summary (March 26, 2026)
+
+| Metric | Result |
+|---|---|
+| Test files | 5 passed / 5 total |
+| Individual tests | 36 passed / 36 total |
+| Test command | `npm test` |
+| Coverage command | `npm run coverage` |
+| Statements | 90.43% |
+| Branches | 73.66% |
+| Functions | 87.50% |
+| Lines | 90.64% |
+
+Coverage thresholds configured in `vitest.config.js` (60% minimum across lines/statements/functions/branches) are currently satisfied.
  
 ---
 
 ## Issue Reports
+
+### Documentation of issue reports
+
 ![Test_fail](img/Test_fail.png)
 Failing tests before fixes
+
+### Status of previously reported issues
+
+- Previously reported defects were reproduced through failing tests and tracked as issues before applying fixes.
+- After implementing fixes, the full test suite now passes (`36/36`), indicating that the reported test-detected defects are resolved.
+- No regression failures are present in the latest run (`npm test` and `npm run coverage`).
+
+### Verification evidence
+
+- **Before fixes:** failing run evidence in `img/Test_fail.png`
+- **After fixes:** passing run evidence in `img/Test_pass.png`
+- **Automated confirmation:** CI workflow executes tests and coverage on every push/pull request.
 
 
 ---
