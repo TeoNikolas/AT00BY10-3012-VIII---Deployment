@@ -159,10 +159,7 @@ npm run coverage
 | Coveralls upload | Sends `coverage/lcov.info` to Coveralls; runs even if tests fail (`fail-on-error: true` still reports the result) |
  
 ### Workflow screenshots
- 
- 
-![Test_fail](img/Test_fail.png)
-![Test_pass](img/Test.pass.png)
+
 ![Workflow-pic1](img/workflow-1.png)
 ![Workflow-pic2](img/workflow-2.png)
  
